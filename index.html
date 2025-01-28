@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Project</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+        <nav class="nav">
+          <a href="" class="logo"> <span class="highlighted"> F</span>oyinsola</a>
+  
+          <div class="nav-links">
+            <a href="#home" class="nav-item nav-item-active">Home</a>
+            <a href="#about" class="nav-item">About</a>
+            <a href="#services" class="nav-item">Services</a>
+            <a href="#projects" class="nav-item">projects</a>
+            <a href="#contact" class="nav-item">contact</a>
+          </div>
+  
+          <div class="toggler">
+            <span class="line"></span><span class="line"></span
+            ><span class="line"></span>
+          </div>
+        </nav>
+      </header>
+    
+      <section class="hero container" id="home">
+        <div class="hero-info">
+         <h1 class="title">Foyinsola <span class="highlighted">Odekunle</span></h1>
+         <p class="hero-description">Frontend Developer | Python Developer </p>
+         <a href="#services" class="btn hero-btn">Services</a>
+       </div>
+ 
+  </section>
+
+  <section class="about container" id="about">
+    <div class="about-img">
+      <img src="./assets/images/My photo.jpg"  alt="Odekunle Foyinsola" /> 
+    </div>
+
+    <div class="about-info">
+      <h2 class="secondary-title">About Me</h2>
+
+      <p class="description">
+        As a first-year student with a growing passion for web development, software engineering, and Python, I am diving into the tech world eager to learn and innovate. Despite being a beginner, I have quickly developed a strong foundation and a keen problem-solving ability. I approach coding challenges with enthusiasm, always striving to find effective solutions and deliver impactful results.
+        </p>
+
+      <p class="description">
+        My journey is driven by a desire to create memorable digital experiences. I've already immersed myself in several projects, from building dynamic websites to developing innovative software solutions. My dedication to learning and problem-solving has helped me quickly grasp new concepts, making me a versatile and resourceful developer.
+      </p>
+
+      <p class="description">
+         Outside of coding, music is my source of inspiration and balance. It fuels my creativity and keeps me grounded, providing the perfect harmony to my tech-driven journey. As I continue to explore the tech world, I look forward to combining my passion for web development, problem-solving skills, and love for music to create meaningful digital experiences.
+      </p>
+
+      <a href="#" class="btn btn-secondary">More</a>
+    </div>
+  </section>
+  <div class="services container" id="services">
+    <div class="services-header">
+      <h2 class="secondary-title">Services</h2>
+    </div>
+
+    <div class="grid services-grid">
+      <div class="grid-item services-item">
+       
+        <i class="fa-solid fa-laptop-code"></i>
+        <h3>Web Design</h3>
+        <p class="description">
+          Crafting responsive, user-friendly websites that cater to your needs, ensuring a seamless online experience
+        </p>
+      </div>
+      <div class="grid-item services-item">
+        
+        <i class="fa-brands fa-python"></i>
+        <h3>Python Development</h3>
+        <p class="description">
+          Developing robust, scalable solutions with Python, tailored to meet your unique requirements efficiently.
+        </p>
+      </div>
+      <div class="grid-item services-item">
+        <i class="fa-solid fa-code"></i>
+        <h3>Development</h3>
+        <p class="description">
+          Developing innovative software solutions to streamline processes and enhance user experiences.
+        </p>
+      </div>
+    </div>
+  </div>
+  <section class="projects container" id="projects">
+    <div class="projects-header">
+      <h2 class="secondary-title">Projects</h2>
+
+      <div class="projects-tab">
+        <button class="projects-tab-btn projects-tab-btn-active" id="all">
+          All
+        </button>
+        <button class="projects-tab-btn" id="design">Design</button>
+        <button class="projects-tab-btn" id="python">Python</button>
+        <button class="projects-tab-btn" id="javascript">Other</button>
+      </div>
+    </div>
+
+    <div class="grid projects-grid">
+      <div class="grid-item projects-item all design">
+        <img src="./assets/images/portfolioproject2.png" alt="" />
+        <h4>Fully Responsive Login and Registration Page</h4>
+        <p class="sultana">
+          This is a responsive, user-friendly page with a sleek blue and white design. It lets you switch easily between login and registration while offering social login options.
+        </p>
+      </div>
+      <div class="grid-item projects-item all design">
+        <img src="./assets/images/portfolioproject1 (2).png" alt="" />
+        <h4>This is a Shoe Brand Called ShoesBySt(Me)</h4>
+        <p class="sultana">
+          This has bold blue accents, highlighting elegance and simplicity. It showcases a variety of stylish, high-quality shoes designed for confidence and comfort. The brand ambassador, Burna Boy, adds a touch of influence and global appeal, making it a go-to destination for trendy footwear.
+        </p>
+      </div>
+      <div class="grid-item projects-item all python">
+        <img src="./assets/images/calculator.png" alt="pythonproject1" />
+        <h4>A Fully Functioning Calculator App</h4>
+        <p class="sultana">
+          SimpleCalc is your handy tool for basic arithmetic operations. With a clean and user-friendly interface, it makes everyday calculations a breeze. Add, subtract, multiply, and divide effortlessly, all in one straightforward app. Perfect for quick math tasks without the clutter of extra features.
+        </p>
+      </div>
+      <div class="grid-item projects-item all python">
+        <img src="./assets/images/project6.png" alt="pythonproject2" />
+        <h4>A Calorie Tracker App</h4>
+        <p class="sultana">This is a user-friendly calorie counter app. It helps users track their dietary intake, adjust calorie goals based on activity, and stay on track with progress charts</p>
+
+      </div>
+      <div class="grid-item projects-item all javascript">
+        <img src="./assets/images/project 4.png" alt="otherproject1" />
+        <h4>A Fully Functioning Weather App</h4>
+        <p class="sultana">
+          The weather app offers current weather, temperature, and hourly forecasts for any location. It’s user-friendly and helps you stay prepared.
+         </p>
+      </div>
+      <div class="grid-item projects-item all javascript">
+        <img src="./assets/images/project5.png" alt="otherproject2" />
+        <h4>A Quiz App</h4>
+        <p class="sultana">There's an app interface to create a quiz. You pick the number of questions, category, difficulty, and time per question. Then, you hit "Start Quiz."</p>
+      </div>
+    </div>
+  </section>
+  <section class="container contact" id="contact">
+    <div class="contact-info">
+      <h2 class="secondary-title">Contact</h2>
+      <div class="info-container">
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <!-- <i class="fa-solid fa-location-dot"></i> -->
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="contact-info-data">
+            <h3>Address</h3>
+            <p>Oluyole Ibadan</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <!-- <i class="fa-solid fa-envelope"></i> -->
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="contact-info-data">
+            <h3>Email</h3>
+            <p>odekunlefoyinsola@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <!-- <i class="fa-solid fa-phone-volume"></i> -->
+            <i class="fa-solid fa-phone"></i>
+
+          </div>
+          <div class="contact-info-data">
+            <h3>Phone</h3>
+            <p>09027789750</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Name" />
+        <input type="text" id="email" placeholder="Email" />
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+        <button class="btn submit-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+     
+  <footer class="footer">
+    <p>&copy; 2025 Foyinsola Odekunle All Right Reserved</p>
+  </footer>
+
+        <script src="./app.js"></script>
+  </body>
+</html>
